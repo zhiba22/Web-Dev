@@ -43,7 +43,7 @@ body {
     background: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px black;
     display: flex;
     flex-direction: column;
 }
@@ -102,10 +102,6 @@ hr {
     cursor: pointer;
     align-self: center;
     transition: background-color 0.3s ease;
-}
-
-.signup:hover {
-    background-color: #338822;
 }
 
 .create-page {

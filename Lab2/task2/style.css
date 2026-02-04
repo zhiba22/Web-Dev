@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #1c1e21;
+    color: black;
     position: relative;
 }
 
@@ -89,26 +89,25 @@ body {
     align-items: center;
     gap: 8px;
     text-decoration: none;
-    color: #1c1e21;
+    color: black;
     font-size: 14px;
-}
-.other-part button {
-    border-color: rgb(0, 136, 244);
 }
 .new-acc {
     background-color: white;
     border-color: rgb(0, 136, 244);
     color: rgb(0, 136, 244);
 }
+.other-button {
+    border-color: rgb(0, 136, 244);
+}
 .meta {
-    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 25px;
     margin-bottom: 10px;
     text-decoration: none;
-    color: #1c1e21;
+    color: black;
     font-size: 14px;
 }
 .gradient{
@@ -132,6 +131,9 @@ body {
     text-decoration: None;
     margin: 8px;
     font-size: 12px;
+}
+.footer a:hover{
+    text-decoration: underline;
 }
 .footer-links {
     margin: 10px;
