@@ -1,0 +1,31 @@
+<div class="store-header">
+  <h1>🛒 Online Store</h1>
+  <p>Best products from Kaspi.kz</p>
+</div>
+
+<div class="product-grid">
+  @for (product of products; track product.id) {
+  <div class="product-card">
+    <a [href]="product.link" target="_blank">
+      <img [src]="product.image" [alt]="product.name" class="product-image" />
+    </a>
+    <div class="product-info">
+      <h2 class="product-name">{{ product.name }}</h2>
+      <p class="product-description">{{ product.description }}</p>
+      <div class="stars">
+        @for (star of getStars(product.rating); track $index) {
+          <span [class]="'star ' + star">
+            {{ star === 'full' ? '★' : star === 'half' ? '⯨' : '☆' }}
+          </span>
+        }
+        <span class="rating-number">{{ product.rating }}</span>
+      </div>
+      <p class="product-price">{{ product.price | number }} ₸</p>
+      <div class="card-actions">
+        <a [href]="product.link" target="_blank" class="btn-buy">View on Kaspi</a>
+        <a [href]="getShareUrl(product)" target="_blank" class="btn-share">📤 Share</a>
+      </div>
+    </div>
+  </div>
+  }
+</div>
