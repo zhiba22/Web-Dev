@@ -40,6 +40,8 @@ function addTodoItem(text) {
         todoList.removeChild(listItem);
     });
 
+    
+
     leftSection.appendChild(checkbox);
     leftSection.appendChild(span);
 
@@ -48,3 +50,10 @@ function addTodoItem(text) {
 
     todoList.appendChild(listItem);
 }
+const countButton = document.getElementById('count-completed');
+countButton.className = 'count-completed';
+
+countButton.addEventListener('click', function () {
+    const completedTasks = document.querySelectorAll('#todo-list input[type="checkbox"]:checked');
+    alert("Completed tasks: " + completedTasks.length);
+});

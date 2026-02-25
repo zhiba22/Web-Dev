@@ -21,7 +21,7 @@ export class ProductListComponent {
       images: [
         'https://resources.cdn-kaspi.kz/img/m/p/h4a/h49/84594946539550.jpg'
       ],
-      link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-chyornyj-102747185/'
+      link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-nanosim-esim-goluboi-113137929/?c=750000000'
     },
     {
       id: 2,
@@ -29,11 +29,11 @@ export class ProductListComponent {
       description: 'Flagship Samsung phone with AI features. Snapdragon 8 Gen 3 processor and 50MP camera. Stunning 6.2-inch AMOLED display.',
       price: 349990,
       rating: 4.7,
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/p41/pda/1306250.png?format=gallery-medium',
       images: [
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s'
+        'https://resources.cdn-kaspi.kz/img/m/p/p41/pda/1306250.png?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/samsung-galaxy-s24-8-256gb-chyornyj-106821985/'
+      link: 'https://kaspi.kz/shop/p/samsung-galaxy-s24-fe-5g-8-gb-256-gb-zelenyi-128142993/?c=750000000'
     },
     {
       id: 3,
@@ -41,11 +41,11 @@ export class ProductListComponent {
       description: 'Ultra-thin laptop powered by Apple M2 chip. Up to 18 hours battery life and 13.6-inch Liquid Retina display. Perfect for students and professionals.',
       price: 699990,
       rating: 4.9,
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/h06/h08/64213171568670.jpg?format=gallery-medium',
       images: [
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s'
+        'https://resources.cdn-kaspi.kz/img/m/p/h06/h08/64213171568670.jpg?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/apple-macbook-air-13-m2-8gb-256gb-serebrjanyj-103494948/'
+      link: 'https://kaspi.kz/shop/p/apple-macbook-air-13-2020-13-3-8-gb-ssd-256-gb-macos-mgn63ru-a-101182724/?c=750000000'
     },
     {
       id: 4,
@@ -53,11 +53,11 @@ export class ProductListComponent {
       description: 'Next-gen gaming console with ultra-high speed SSD. Ray tracing and 4K gaming at up to 120fps. Includes DualSense wireless controller.',
       price: 299990,
       rating: 4.9,
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/hf1/h03/84526695677982.jpg?format=gallery-medium',
       images: [
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s'
+          'https://resources.cdn-kaspi.kz/img/m/p/hf1/h03/84526695677982.jpg?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/sony-playstation-5-825gb-bely-j-101705394/'
+      link: 'https://kaspi.kz/shop/p/sony-playstation-5-slim-114696098/?c=750000000'
     },
     {
       id: 5,
@@ -65,11 +65,11 @@ export class ProductListComponent {
       description: 'Premium wireless earbuds with Active Noise Cancellation. Adaptive Transparency mode and Personalized Spatial Audio. Up to 30 hours total battery.',
       price: 139990,
       rating: 4.8,
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/p89/pc5/64466278.png?format=gallery-medium',
       images: [
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s'
+        'https://resources.cdn-kaspi.kz/img/m/p/p89/pc5/64466278.png?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/apple-airpods-pro-2-bely-j-104693720/'
+      link: 'https://kaspi.kz/shop/p/naushniki-apple-airpods-pro-3-belyi-145554533/?c=750000000'
     },
     {
       id: 6,
@@ -77,11 +77,11 @@ export class ProductListComponent {
       description: 'Stunning 55-inch QLED display with 4K resolution. Smart TV with built-in streaming apps and voice control. Quantum HDR for vivid colors.',
       price: 259990,
       rating: 4.6,
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/h7b/hc2/86493595172894.jpg?format=gallery-medium',
       images: [
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s'
+        'https://resources.cdn-kaspi.kz/img/m/p/h7b/hc2/86493595172894.jpg?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/samsung-55-qe55q60bauxce-chyornyj-103760908/'
+      link: 'https://kaspi.kz/shop/p/jandeks-pro-qled-yndx-00101-140-sm-chernyi-121225833/?c=750000000'
     },
     {
       id: 7,
@@ -89,11 +89,11 @@ export class ProductListComponent {
       description: 'Powerful cordless vacuum with laser dust detection. Up to 60 minutes runtime and HEPA filtration. Automatically adapts suction to floor type.',
       price: 249990,
       rating: 4.7,
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/pa4/p32/77965055.jpg?format=gallery-medium',
       images: [
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s'
+        'https://resources.cdn-kaspi.kz/img/m/p/pa4/p32/77965055.jpg?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/dyson-v15-detect-zhelytyj-104042442/'
+      link: 'https://kaspi.kz/shop/p/dyson-v15-detect-absolute-sv47-serebristyi-113691132/?c=750000000'
     },
     {
       id: 8,
@@ -101,11 +101,11 @@ export class ProductListComponent {
       description: 'Powerful tablet with Apple M1 chip and 10.9-inch Liquid Retina display. Supports Apple Pencil and Magic Keyboard. Available in 5G.',
       price: 319990,
       rating: 4.8,
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/p23/pc7/37134129.png?format=gallery-medium',
       images: [
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s'
+        'https://resources.cdn-kaspi.kz/img/m/p/p23/pc7/37134129.png?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/apple-ipad-air-5-m1-64gb-wi-fi-serebrjanyj-102912791/'
+      link: 'https://kaspi.kz/shop/p/apple-ipad-air-11-2025-wi-fi-11-djuim-8-gb-128-gb-seryi-137965083/?c=750000000'
     },
     {
       id: 9,
@@ -113,11 +113,11 @@ export class ProductListComponent {
       description: 'Smart robot vacuum with LiDAR navigation and 3000Pa suction. Auto-empties dustbin and mops floors. Works with Alexa and Google Home.',
       price: 119990,
       rating: 4.5,
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/he9/h71/85879011311646.png?format=gallery-medium',
       images: [
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s'
+        'https://resources.cdn-kaspi.kz/img/m/p/he9/h71/85879011311646.png?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/xiaomi-robot-vacuum-s10-bely-j-105622637/'
+      link: 'https://kaspi.kz/shop/p/xiaomi-robot-vacuum-e5-belyi-118878244/?c=750000000'
     },
     {
       id: 10,
@@ -125,11 +125,11 @@ export class ProductListComponent {
       description: 'Advanced smartwatch with S9 chip and Double Tap gesture. Always-on Retina display and blood oxygen monitoring. Water resistant to 50 meters.',
       price: 179990,
       rating: 4.8,
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/h06/h98/83874224799774.jpg?format=gallery-medium',
       images: [
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh09-g8OHP0AdkuFXhAty1P1AMhIKnPtygaw&s'
+        'https://resources.cdn-kaspi.kz/img/m/p/h06/h98/83874224799774.jpg?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/apple-watch-series-9-41mm-rozovyj-106835085/'
+      link: 'https://kaspi.kz/shop/p/apple-watch-series-9-gps-m-l-45-mm-sinii-chernyi-113398437/?c=750000000'
     }
   ];
 
@@ -147,4 +147,15 @@ export class ProductListComponent {
     const text = encodeURIComponent(`Check out this product: ${product.name} - ${product.link}`);
     return `https://wa.me/?text=${text}`;
   }
+
+
+filterRating: number | null = null;
+
+get filteredProducts(): Product[] {
+  if (this.filterRating !== null) {
+    return this.products.filter(p => p.rating >= this.filterRating!);
+  }
+  return this.products;
+}
+
 }

@@ -1,10 +1,10 @@
 <div class="store-header">
-  <h1>🛒 Online Store</h1>
+  <h1> Online Store</h1>
   <p>Best products from Kaspi.kz</p>
 </div>
 
 <div class="product-grid">
-  @for (product of products; track product.id) {
+  @for (product of filteredProducts; track product.id) {
   <div class="product-card">
     <a [href]="product.link" target="_blank">
       <img [src]="product.image" [alt]="product.name" class="product-image" />
@@ -23,9 +23,16 @@
       <p class="product-price">{{ product.price | number }} ₸</p>
       <div class="card-actions">
         <a [href]="product.link" target="_blank" class="btn-buy">View on Kaspi</a>
-        <a [href]="getShareUrl(product)" target="_blank" class="btn-share">📤 Share</a>
+        <a [href]="getShareUrl(product)" target="_blank" class="btn-share">� Share</a>
       </div>
     </div>
   </div>
   }
+  <div id="sort-bar"><label for="filter">Min rating:</label>
+    <select id="filter" (change)="onFilterChange($event)">
+        <option value="all">All ratings</option>
+        <option value="4.8">4.8  and above</option>
+        <option value="4.7">4.7  and above</option>
+        <option value="4.5">4.5  and above</option>
+    </select></div>
 </div>
