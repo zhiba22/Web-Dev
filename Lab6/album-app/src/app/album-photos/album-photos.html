@@ -1,0 +1,10 @@
+<h2>Photos</h2>
+
+<div *ngFor="let photo of photos">
+  <img [src]="photo.thumbnailUrl">
+  <p>{{ photo.title }}</p>
+</div>
+
+<br>
+
+<a [routerLink]="['/albums', photos[0]?.albumId]">Back</a>

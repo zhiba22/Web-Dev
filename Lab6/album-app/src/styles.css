@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0f0f13;
+  --surface: #1a1a24;
+  --border: #2e2e3f;
+  --accent: #c8a96e;
+  --text: #e8e6e0;
+  --text-muted: #7a7890;
+  --danger: #c0605a;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);       /* ← this makes all text light colored */
+  font-family: sans-serif;
+  min-height: 100%;
+}
