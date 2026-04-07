@@ -20,3 +20,8 @@ class CategoryViewSet(viewsets.ModelViewSet):
 class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
+
+    @action(detail=False, methods=['delete'])
+    def clear(self, request):
+        Product.objects.filter(is_active=False).delete()
+        return Response({'message': 'Inactive products deleted'})
